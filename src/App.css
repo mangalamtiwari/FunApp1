@@ -1,0 +1,57 @@
+body {
+  background-color: #61dafb;
+  margin: 20px auto;
+  /* padding: 20px auto; */
+}
+
+.App {
+  text-align: center;
+}
+
+.title {
+  display: flex;
+  margin: auto;
+  height: 75px;
+  width: 200px;
+  background-color: floralwhite;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 20px;
+}
+
+.container {
+  height: 250px;
+  width: 330px;
+  /* display: flex; */
+  background-color: blueviolet;
+  border-radius: 30px;
+  margin: auto;
+}
+
+.display {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background: #0f6b6a;
+  border: 1px solid #000;
+  margin: 50px auto;
+}
+
+.display h1 {
+  font-size: xxx-large;
+  margin: 10px auto;
+}
+button{
+  margin-right: 17px;
+  margin-left: 37px;
+  padding: 10px 5px 10px 5px;
+  font-weight: bolder;
+  font-size:15px;
+  border-radius: 10px;
+  background-color:aquamarine;
+}
+button:hover{
+  /* color:; */
+  background-color:cyan;
+  cursor: pointer;
+}
